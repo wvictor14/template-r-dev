@@ -1,11 +1,4 @@
 
------
-
-This is a template repository to begin R-based projects
-
------
-
-
 # The Title of This Package
 
 <!-- badges: start -->
