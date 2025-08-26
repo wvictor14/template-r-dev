@@ -1,0 +1,65 @@
+*Rproj
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session data
+.RData
+
+# RStudio files
+.Rproj.user/
+
+# R package build artifacts
+.Rbuildignore
+.Rinstignore
+*.Rcheck/
+*.tar.gz
+*.zip
+*.log
+
+# R package development files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+.vscode/ # VS Code specific
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.tmp
+
+# R markdown artifacts
+*.html
+*.pdf
+*.md
+*.knit.md
+*.utf8.md
+*.log
+*.aux
+*.toc
+*.nav
+*.out
+*.snm
+*.vrb
+*.dvi
+*.bbl
+*.blg
+*.idx
+*.lof
+*.lot
+*.synctex.gz
+*.tex
+
+# Data files (if not intended for version control)
+# data/
+# raw_data/
+
+# Output directories
+# output/
+# results/
+
+# Cache directories
+.Rprofile.d/
+.renv/
+renv/
