@@ -32,23 +32,8 @@ Thumbs.db # Windows specific
 # R markdown artifacts
 *.html
 *.pdf
-*.md
 *.knit.md
 *.utf8.md
-*.log
-*.aux
-*.toc
-*.nav
-*.out
-*.snm
-*.vrb
-*.dvi
-*.bbl
-*.blg
-*.idx
-*.lof
-*.lot
-*.synctex.gz
 *.tex
 
 # Data files (if not intended for version control)
