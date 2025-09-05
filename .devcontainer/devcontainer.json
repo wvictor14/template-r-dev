@@ -2,25 +2,20 @@
   "name": "victor2wy/rstudio",
   "image": "victor2wy/rstudio",
   "containerEnv": {
-    "RENV_PATHS_CACHE": "/renv/cache"
+    "RENV_PATHS_CACHE": "/renv/cache",
+    "PASSWORD": "password"
   },
   "features": {
-    "ghcr.io/devcontainers-extra/features/apt-packages:1": {
-      "packages": [
-        "libcurl4-openssl-dev",
-        "libgit2-dev"
-      ]
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "libcurl4-openssl-dev, libgit2-dev"
     },
     "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "installOhMyZsh": true,
+      "installOhMyZshConfig": true,
       "configureZshAsDefaultShell": true
     },
     "ghcr.io/rocker-org/devcontainer-features/renv-cache:0": {},
-    "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {
-      "plugins": [
-        "docker",
-        "colorize"
-      ]
-    },
     "ghcr.io/devcontainers/features/python:1": {
       "version": "latest",
       "pipx": true
@@ -63,6 +58,15 @@
         "r.plot.useHttpgd": true,
         "[r]": {
           "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
+        },
+        "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+        "terminal.integrated.fontLigatures.enabled": true,
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.integrated.profiles.linux": {
+          "zsh": {
+            "path": "/bin/zsh",
+            "icon": "terminal-ubuntu"
+          }
         }
       }
     }
