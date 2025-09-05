@@ -15,10 +15,10 @@ The devcontainer pulls from victor2wy/rstudio -> a docker image built on the lat
 
 TODO:
 
-- [ ] expose rstudio-server with port forwarding to devcontainer
-- [ ] improve vscode dev experience
-  - [ ] add radian
-  - [ ] QOL editing things like rlanguageserver, shortcuts
-  - [ ] add httpgd
-- [ ] add python
-- [ ] ensure quarto works 
+- [x] expose rstudio-server with port forwarding to devcontainer
+- [x] improve vscode dev experience
+  - [x] add radian
+  - [x] QOL editing things like rlanguageserver, shortcuts
+  - [x] add httpgd
+- [x] add python
+- [x] ensure quarto works 
